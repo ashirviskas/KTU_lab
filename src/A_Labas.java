@@ -19,8 +19,9 @@ public class A_Labas {
             case "USA": atsakymas = "Hello WORLD";   break;
             case "SWE": atsakymas = "Hallå världen"; break;
             case "GRE": atsakymas = "Γεια κόσμος";   break;
-            case "FRA": atsakymas = "Bonjour tout le monde";    
+            case "FRA": atsakymas = "Bonjour tout le monde"; break;   
             case "RUS": atsakymas = "привет мир";    break;
+            case "LAT": atsakymas = "Heil World";    break;
             default:    atsakymas = "Atsiprašau - nesupratau";
         }   
         System.out.println(atsakymas);

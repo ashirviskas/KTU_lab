@@ -23,7 +23,7 @@ public class C_Sveikintojas {
             case "ENG": ats = "Hello world, I am "     + vardas; break;
             case "SWE": ats = "Hallå världen, jag är " + vardas; break;
             case "GRE": ats = "Γεια κόσμος, είμαι ο "  + vardas; break;
-            case "RUS": ats = "Привет мир, Я "         + vardas; 
+            case "RUS": ats = "Привет мир, Я "         + vardas; break;
             default:    ats = "Atsiprašau - nesupratau";
         }   
         System.out.println(ats);

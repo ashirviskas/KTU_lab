@@ -21,8 +21,9 @@ public class B_Labas {
             case "ENG": atsakymas = "Hello WORLD";   break;
             case "SWE": atsakymas = "Hallå världen"; break;
             case "GRE": atsakymas = "Γεια κόσμος";   break;
-            case "FRA": atsakymas = "Bonjour tout le monde";    
+            case "FRA": atsakymas = "Bonjour tout le monde";  break;  
             case "RUS": atsakymas = "привет мир";    break;
+            case "LAT": atsakymas = "Heil World";    break;
             default:    atsakymas = "Atsiprašau - nesupratau";
         }   
         System.out.println("Kalba " + kalba + ":  " + atsakymas);
@@ -35,9 +36,9 @@ public class B_Labas {
         sveikintis("FRA");   // kodėl ne taip, kur klaida?  
     }
     public static void main(String[] args) {
-//        B_Labas o = new B_Labas(); // sukuriamas pagalbinis objektas o
-//        o.demo();
+        B_Labas o = new B_Labas(); // sukuriamas pagalbinis objektas o
+        o.demo();
         // galimas alternatyvinis varijantas vienoje eilutėje, išbandykite
-//        new B_Labas().demo();
+        new B_Labas().demo();
     }    
 }
